@@ -2,10 +2,6 @@
 
 ignore=tests
 
-[BASIC]
-
-docstring-min-length = 5
-
 [MESSAGE CONTROL]
 
 disable=raw-checker-failed,
@@ -30,4 +26,5 @@ max-nested-blocks = 2
 
 [DESIGN]
 
+max-branches = 10
 max-statements = 15

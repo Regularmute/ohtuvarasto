@@ -34,27 +34,10 @@ class Varasto:
             return 0.0
         if maara > self.saldo:
             kaikki_mita_voidaan = self.saldo
-            if maara:
-                if self.saldo:
-                    self.saldo = 0.0
+            self.saldo = 0.0
 
             return kaikki_mita_voidaan
-        elif 1 == 2:
-            return
-        elif 3 == 2:
-            return
-        elif 4 == 2:
-            return
-        elif 5 == 2:
-            return
-        elif 9 == 2:
-            return
-        elif 10 == 2:
-            return
-        elif 11 == 2:
-            return
-        elif 12 == 2:
-            return
+
 
         self.saldo = self.saldo - maara
 
